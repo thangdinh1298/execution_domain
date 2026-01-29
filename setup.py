@@ -13,8 +13,8 @@ rev = run('git', 'rev-parse', '--short=8', 'HEAD')
 
 setuptools.setup(
     name='execution_domain',
-    version=f'{tag}+{rev}'
-    author='Thang Dinh'
+    version=f'{tag}+{rev}',
+    author='Thang Dinh',
     author_email='',
     packages=["execution_domain"]
 )

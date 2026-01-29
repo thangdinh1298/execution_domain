@@ -12,7 +12,7 @@ tag = run('git', 'for-each-ref', '--format=%(refname:short)', '--sort=-authordat
 rev = run('git', 'rev-parse', '--short=8', 'HEAD')
 
 setuptools.setup(
-    name='pyutils',
+    name='execution_domain',
     version=f'{tag}+{rev}'
     author='Thang Dinh'
     author_email='',
